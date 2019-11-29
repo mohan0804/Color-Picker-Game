@@ -1,0 +1,72 @@
+body {
+    background: #110a01;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    background: steelblue;
+    margin: 0;
+    line-height: 1.1;
+    padding: 20px 0;
+    font-weight: normal;
+}
+
+#colorDisplay {
+    font-size: 200%;
+}
+
+.square {
+    background: purple;
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    border-radius: 20px;
+    transition: background 0.5s;
+}
+
+#container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#stripe {
+    color: black;
+    background: white;
+    text-align: center;
+    height: 30px;
+}
+.selected {
+    background: steelblue;
+    color: white;
+}
+
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    height: 100%;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    outline: none;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: inherit;
+}
+
+button:hover {
+    color: white;
+    background: steelblue;
+}
